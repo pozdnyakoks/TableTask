@@ -1,5 +1,5 @@
 import { useSearchParams } from 'react-router-dom';
-import Table from './table';
+import Table from './Table';
 
 export default function Nav() {
   const [searchParams, setSearchParams] = useSearchParams();
